@@ -1,0 +1,51 @@
+body{
+    margin: 20px;
+    font-family: fantasy;
+}
+
+.avatar{
+    width: 150px;
+}
+
+
+
+.card{
+   position: relative;
+   animation: myfirst 5s linear 2s infinite alternate;
+   
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   width: 400px;
+   margin: auto;
+   color: #2b2839;
+   background: #ebb6d3;
+   box-shadow: 5px 10px 30px #dfc06a;
+   
+}
+
+
+
+
+.card:hover{
+    transform: translateY(30px);
+    
+}
+
+@keyframes myfirst {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+.inside__text p, .inside__text h4{
+    text-align: center;
+}
+
+.blue__border{
+    border-bottom: 6px solid rgb(31, 129, 63);
+    border-radius: 15px;
+   
+}
